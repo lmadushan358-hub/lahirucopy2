@@ -113,7 +113,7 @@ document
 
     emailjs.sendForm(
         "service_e3tdss2",
-        "template_of1v0b9",
+        "template_77z9rpm",
         this
     )
 
