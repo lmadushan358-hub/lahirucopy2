@@ -108,3 +108,9 @@ form.addEventListener("submit", function(e){
 
     alert("Message Sent Successfully!");
 });
+emailjs.init("9IqtxSNrhi4U_lrCH");
+emailjs.sendForm(
+    "service_e3tdss2",
+    "template_of1v0b9",
+    this
+)
