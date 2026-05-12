@@ -1,12 +1,4 @@
 
-
-// Form submission
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert("Thank you! Your message has been sent. (Demo)");
-    this.reset();
-});
-
 // Keyboard navigation (optional)
 document.addEventListener('keydown', function(e) {
     if (e.key === "Escape") {
